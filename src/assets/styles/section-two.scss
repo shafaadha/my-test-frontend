@@ -1,0 +1,109 @@
+.pin-section {
+  position: relative;
+  height: 400vh;
+  text-align: center;
+  background-color: #111606;
+}
+
+.progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 0%;
+  background-color: #c6fb50;
+  z-index: 20;
+}
+
+.number {
+  position: relative;
+  z-index: 20;
+  font-size: 1.3em;
+  background-color: transparent;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: #c6fb50;
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 10;
+  align-items: center;
+  column-gap: 2.5em;
+  row-gap: 2.5em;
+}
+
+.title-wrap {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  text-align: center;
+}
+
+.list-title {
+  height: 12.2em;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  transform: translateY(50px);
+}
+
+.title-item {
+  padding: 0.05em;
+  padding-bottom: 0.22em;
+  font-size: 11em;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+}
+
+.pin-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.img-stack {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.stack-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  transform: scale(0.3);
+  opacity: 0;
+
+  &:first-child {
+    opacity: 1;
+  }
+}
+
+.button {
+  padding: 0.1em 1.7em;
+  border: solid 1px #c6fb50;
+  border-radius: 100vw;
+  background-color: transparent;
+  color: #c6fb50;
+  font-size: 1.15em;
+}
+
+.w-button {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
