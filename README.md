@@ -1,24 +1,11 @@
-# my-test-frontend
+# Scroll Animation Project
 
-## Project setup
-```
-npm install
-```
+## Setup
+npm install  
+npm run serve  
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Description
+A Vue.js frontend project that demonstrates scroll-based animations using GSAP and ScrollTrigger.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Technologies
+Vue.js, GSAP
